@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.card-body {
+    overflow-y: auto;
+    max-height: 75vh;
+}
+
+.min-h {
+    min-height: 60vh;
+}
+
+.table-cell-truncate {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid #dc3545;
+    transition: color 0.25s;
+}
+
+.error-message {
+    color: #dc3545;
+    position: absolute;
+    font-size: 12px;
+}
